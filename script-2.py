@@ -1,9 +1,13 @@
+import sys
+sys.path.append("include/")
 import numpy as np
 import matplotlib.pyplot as plt
 import clipboard_and_style_sheet as cr
 import td_phase_correct as td
 from tqdm import tqdm
 import os
+
+cr.style_sheet()
 
 # path = r"D:\230105_1G113 DATA/"
 path = r"/Volumes/Extreme SSD/Research_Projects/1G113_Kristina_Chang" \
