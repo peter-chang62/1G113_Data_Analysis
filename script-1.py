@@ -18,7 +18,6 @@ names.sort(key=key)
 ppifg = int(2e7)
 center = ppifg // 2
 
-# index = 4
 for index in range(15, 20):
     x = np.load(path + names[index])
     start = np.argmax(x[:2].flatten())
